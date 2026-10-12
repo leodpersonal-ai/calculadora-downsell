@@ -1,0 +1,36 @@
+:root{color-scheme:light;--ink:#103c3b;--muted:#667b79;--green:#158451;--cream:#f6f8f4;--border:#dfe8e2;font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-synthesis:none;text-rendering:optimizeLegibility}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(ellipse at 50% 0%,#e6f1e9 0%,var(--cream) 55%);color:var(--ink);min-height:100vh;padding:32px 20px 22px}
+.brand{display:flex;align-items:center;justify-content:center;gap:9px;font-size:25px;font-weight:750;letter-spacing:-1px;margin-bottom:25px}
+.brand-icon{display:grid;place-items:center;background:var(--ink);color:#fff;width:30px;height:30px;border-radius:9px;font-size:21px;letter-spacing:0}
+.brand-light{font-weight:450}
+.offer{max-width:700px;margin:auto;background:#fff;border:1px solid var(--border);border-radius:26px;padding:38px 46px 25px;box-shadow:0 18px 60px #163c3210}
+.offer-intro{text-align:center}
+.eyebrow{font-size:10px;font-weight:750;letter-spacing:1.65px;color:#60836d}
+h1{font-size:clamp(27px,4vw,35px);line-height:1.2;letter-spacing:-1.2px;margin:14px 0 19px;font-weight:750}
+.gift{display:inline-block;font-size:.8em}
+.intro{color:var(--muted);font-size:15px;margin:0 0 12px;line-height:1.6}
+.description{color:var(--muted);font-size:15px;line-height:1.7;margin:0 auto;max-width:545px}
+.description strong{color:var(--ink);font-weight:650}
+.product{display:flex;align-items:center;gap:17px;background:#f1f6f2;border:1px solid #e3ece5;border-radius:15px;padding:19px 22px;margin:26px 0 24px}
+.product-symbol{display:grid;place-items:center;flex-shrink:0;width:58px;height:64px;border:1px solid #d4e4d9;border-radius:13px;background:#fff;color:#337658}
+h2{font-size:17px;line-height:1.4;letter-spacing:-.25px;font-weight:650;margin:0 0 6px}
+.product p{font-size:13px;color:var(--muted);margin:0;line-height:1.5}
+.price-block{text-align:center}
+.old-price{color:#98a29d;font-size:19px;margin:0 0 9px;text-decoration-thickness:1px}
+.price-caption{font-size:17px;font-weight:600;margin:0 0 1px}
+.price{font-size:28px;line-height:1.13;font-weight:650;letter-spacing:-1.1px;margin:0 0 16px;color:#0b4645}
+.price>span:first-child{font-size:70px;font-weight:800;letter-spacing:-3px}
+.price-mark{font-size:35px}
+.terms{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:8px;font-size:12px;color:var(--muted);margin:0;line-height:1.5}
+.discount{background:#e9f5eb;color:#277448;font-weight:700;padding:5px 9px;border-radius:6px}
+.actions{margin-top:27px;text-align:center}
+.hotmart-slot{width:100%}
+.accept{width:100%;border:0;background:var(--green);color:#fff;min-height:58px;padding:17px 14px;border-radius:11px;font:700 13px/1.5 Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;letter-spacing:.2px;box-shadow:0 5px 15px #15845121;display:flex;align-items:center;justify-content:center;gap:13px}
+.accept span{font-size:22px;line-height:1}
+.decline{border:0;background:transparent;color:#7c8883;font:400 12px/1.6 Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;padding:17px 3px 0;text-decoration:underline;text-underline-offset:3px}
+.preview-button:disabled{opacity:1;cursor:default}
+footer{text-align:center;font-size:11px;color:#8a9990;margin-top:24px}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+@media(max-width:540px){body{padding:20px 12px}.brand{font-size:23px;margin-bottom:19px}.offer{padding:29px 21px 21px;border-radius:21px}.eyebrow{font-size:9px;letter-spacing:1px}h1{font-size:28px;letter-spacing:-.8px;margin:13px 0 17px}.desktop-break{display:none}.intro,.description{font-size:14px}.product{padding:16px 13px;gap:12px;margin:22px 0}.product-symbol{width:47px;height:57px}h2{font-size:15px}.product p{font-size:12px}.price>span:first-child{font-size:64px}.terms{gap:6px;font-size:11px}.discount{padding:4px 6px}.accept{font-size:11px;gap:8px;padding:15px 9px}.decline{font-size:11px}}
+@media(max-width:350px){.offer{padding:25px 15px 20px}.terms{column-gap:4px;font-size:10px}.accept{font-size:10px}.product{gap:9px}h2{font-size:14px}}
